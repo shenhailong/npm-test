@@ -1,0 +1,173 @@
+.page{
+  background: #ffffff;
+  height: 100vh;
+}
+.header{
+  width: 100vw;
+  height: 233px;
+  position: relative;
+  .headerbg{
+    width: 100%;
+    height: 100%;
+  }
+  .addBox{
+    position: absolute;
+    top: 33px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    .card{
+      width: 91%;
+      height: 132px;
+      box-shadow:0px 1px 13px 0px rgba(113,20,20,0.08);
+      border-radius:9px;
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .addIcon{
+        width: 45px;
+        height: 45px;
+      }
+      .addText{
+        font-size: 19px;
+        color: #D02F3B;
+        font-family:PingFangSC-Medium,PingFang SC;
+        font-weight:500;
+        margin-left: 9px;
+      }
+    }
+  }
+  .btnBox{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    margin-bottom: -44px;
+    display: flex;
+    justify-content: center;
+    .btnItem{
+      width: 170px;
+      height: 88px;
+      box-shadow:0px 1px 13px 0px rgba(113,20,20,0.08);
+      border-radius:4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .btnIcon{
+        width: 50px;
+        height: 50px;
+      }
+      .btnText{
+        color: #242525;
+        font-size: 19px;
+        font-family:PingFangSC-Medium,PingFang SC;
+        font-weight:500;
+        margin-left: 13px;
+      }
+    }
+  }
+}
+.infoBox{
+  position: absolute;
+  top: 45px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  .avatar{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    margin-left: 22px;
+  }
+  .rightBtn{
+    position: absolute;
+    right: 22px;
+    top: 50%;
+    margin-top: -11px;
+    width: 22px;
+    height: 22px;
+  }
+  .infoBoxRight{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+    .nickname{
+      color: #242525;
+      font-size: 22px;
+      font-weight:500;
+      font-family:PingFangSC-Medium,PingFang SC;
+    }
+    .box{
+      display: flex;
+      align-items: center;
+      margin-top: 11px;
+      .age{
+        font-size: 17px;
+        color: #5F5F5F;
+      }
+      .genderMan{
+        display: flex;
+        align-items: center;
+        background: rgba(118,154,255,.1);
+        padding: 2px 8px;
+        margin-left: 16px;
+        border-radius: 10px;
+        .genderImg{
+          width: 10px;
+          height: 14px;
+        }
+        .genderText{
+          color: #769AFF;
+          margin-left: 4px;
+        }
+      }
+      .genderWoman{
+        display: flex;
+        align-items: center;
+        background: rgba(255,78,148,.1);
+        padding: 2px 8px;
+        margin-left: 16px;
+        border-radius: 10px;
+        .genderImg{
+          width: 10px;
+          height: 14px;
+        }
+        .genderText{
+          color: #FF4E94;
+          margin-left: 4px;
+        }
+      }
+    }
+  }
+}
+.listBox{
+  padding: 75px 0 0 22px;
+  .listItem{
+    border-bottom: 1px solid #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 22px 22px 0;
+    .itemLeft{
+      display: flex;
+      align-items: center;
+      .icon{
+        width: 25px;
+        height: 25px;
+      }
+      .text{
+        color: #5F5F5F;
+        font-size: 18px;
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        margin-left: 9px;
+      }
+    }
+    .itemRight{
+      width: 17px;
+      height: 17px;
+    }
+  }
+}

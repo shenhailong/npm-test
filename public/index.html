@@ -1,0 +1,49 @@
+<!--
+ * @Description:
+ * @Version: 1.0.0
+ * @Author: Dragon
+ * @Date: 2020-08-04 16:50:44
+ * @LastEditors: Dragon
+ * @LastEditTime: 2020-08-05 10:45:06
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width user-scalable=no" />
+  <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+  <script>
+    if ('addEventListener' in document) {
+      document.addEventListener('DOMContentLoaded', function () {
+        FastClick.attach(document.body);
+      }, false);
+    }
+    if (!window.Promise) {
+      document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"' +
+        '>' + '<' + '/' + 'script>');
+    }
+  </script>
+
+  <title>有爱医学</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+<style>
+  .am-list-body::after {
+    height: 0 !important;
+  }
+</style>
+
+<body>
+
+  <div id="root"></div>
+  <!-- 压缩版 -->
+  <script src="https://cdn.ronghub.com/RongIMLib-3.0.0-dev.min.js"></script>
+  <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+  <script src="index.js"></script>
+  <script>
+  </script>
+</body>
+
+</html>

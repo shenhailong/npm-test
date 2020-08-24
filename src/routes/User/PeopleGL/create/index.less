@@ -1,0 +1,177 @@
+.page{
+  background: rgba(239,239,241,.6);
+  height: 100vh;
+  overflow: auto;
+  .itemTop{
+    background: #FFFFFF;
+    .item{
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 18px;
+      border-bottom: 1px solid #F8F8FA;
+      padding: 24px 18px 24px 0;
+      .itemLeft{
+        color: #868894;
+        font-size:18px;
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+      }
+      .itemRightS{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 73%;
+        color: #0E0E0E;
+        .input{
+          color: #0E0E0E;
+          font-size: 17px;
+          text-align: right;
+          width: 70px;
+        }
+        .input::-webkit-input-placeholder{
+          color: #CCCCCC;
+          font-size: 14px;
+        }
+        .inpTag{
+          display: flex;
+          align-items: center;
+          background: rgba(208,47,59,.1);
+          border-radius: 4px;
+          padding: 8px 9px;
+          color: #D02F3B;
+          font-size: 14px;
+          margin-right: 9px;
+          margin-bottom: 9px;
+          .tagName{
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+            max-width: 100px;
+          }
+          .tagClose{
+            width: 10px;
+            height: 10px;
+            margin-left: 9px;
+          }
+        }
+      }
+      .itemRight{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 73%;
+        color: #0E0E0E;
+        .input{
+          color: #0E0E0E;
+          font-size: 17px;
+          text-align: right;
+        }
+        .input::-webkit-input-placeholder{
+          color: #CCCCCC;
+          font-size: 14px;
+        }
+        .close{
+          width: 17px;
+          height: 17px;
+          margin-left: 7px;
+        }
+        .radioGroup{
+          display: flex;
+          justify-content: flex-end;
+          .radioBox{
+            display: flex;
+            align-items: center;
+            margin-left: 55px;
+            .radio{
+              width: 22px;
+              height: 22px;
+              border-radius: 50%;
+              border: 1px solid rgba(211,211,211,1);
+              position: relative;
+              .select{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 22px;
+                height: 22px;
+              }
+            }
+            .radioText{
+              color: #242525;
+              font-size: 18px;
+              margin-left: 9px;
+            }
+          }
+        }
+        .selectBirthday{
+          font-size: 15px;
+          color: #D3D3D3;
+        }
+        .selectBirthdayRight{
+          width: 17px;
+          height: 17px;
+          margin-left: 4px;
+        }
+      }
+      .tag{
+        position: absolute;
+        top: 6px;
+        right: 18px;
+        color: #FFAA20;
+        font-size: 13px;
+      }
+    }
+    .item:last-child{
+      border-bottom: 0;
+    }
+    .searchList{
+      background: rgba(239,239,241,.6);
+      margin-bottom: 68px;
+      .searchListItem{
+        margin: 0 18px 0 18px;
+        padding: 19px 0 19px 0;
+        color: #0E0E0E;
+        font-size: 17px;
+        border-bottom: 1px solid rgba(204,204,204,.5);
+        &:last-child{
+          border-bottom: 0;
+        }
+      }
+    }
+  }
+  .itemBottom{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #FFFFFF;
+    .buttonBox{
+      display: flex;
+      justify-content: center;
+      padding: 9px 0;
+      .saveBtn{
+        color: #FFFFFF;
+        width: 94%;
+        height: 49px;
+        line-height: 49px;
+        border-radius: 4px;
+        text-align: center;
+        background: #D02F3B;
+        font-size: 19px;
+      }
+      .saveBtnNo{
+        color: #FFFFFF;
+        width: 94%;
+        height: 49px;
+        line-height: 49px;
+        border-radius: 4px;
+        text-align: center;
+        background: #DFDFDF;
+        font-size: 19px;
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+:global(.info_box){
+  padding: 12px 12px 6px 16px;
+  background: #ffffff;
+  margin-bottom: 12px;
+
+  :global(.info_item){
+    display: flex;
+    align-items: center;
+    font-size:14px;
+    font-family:PingFang SC;
+    line-height:20px;
+    margin-bottom: 12px;
+  }
+
+  :global(.item_label){
+    width:76px;
+    color:#868894;
+    letter-spacing:2px;
+    margin-right: -10px;
+  }
+
+  :global(.item_colon){
+    color:#868894;
+  }
+  
+
+  :global(.item_label_3){
+    letter-spacing:10px;
+    margin-right: -10px;
+  }
+
+  :global(.item_value){
+    width: 260px;
+    color: #0F0F0F;
+    overflow:hidden;
+    text-overflow:ellipsis;
+
+    &:global(.blue){
+      color: @color-blue
+    }
+  }
+
+}
